@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/tablet.css">
+    <link rel="stylesheet" href="./assets/styles/phone.css">
+    <title>Profi</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <div class="header__logo">
+                <img class="header__logo-img" src="./assets/img/logo.png" alt="">
+                <div class="header__menu">
+                    <div class="burger__btn">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                    <div class="burger__text">Меню</div>
+                </div>
+            </div>
+            <div class="header__contacts">
+                <adress class="header__adress">г. Владимир ул. Мира д. 15-в<br>оф. 311 (ДЦ Консоль, 3 этаж) </adress>
+                <adress class="header__phone">
+                    <a href="tel: +7 (4922) 60-44-108" class="header__phone-item">+7 (4922) 60-44-108</a>
+                    <a href="tel +7 (930) 830-44-10" class="header__phone-item">+7 (930) 830-44-10</a>
+                </adress>
+            </div>
+        </div> 
+    </header>
+
+    <nav  class="header__nav">
+        <ul class="wrapper nav__list">
+            <li class="nav-item">
+                <a href="#advantages" class="nav-link">Почему мы?</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cost" class="nav-link">Сроки и цены</a>
+            </li>
+            <li class="nav-item">
+                <a href="#work" class="nav-link">Схема работы</a>
+            </li>
+            <li class="nav-item">
+                <a href="#results" class="nav-link">Результаты работы</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sertificat" class="nav-link">Сертификаты</a>
+            </li>
+            <li class="nav-item">
+                <a href="#specialist" class="nav-link">Команда</a>
+            </li>
+            <div class="nav__contacts">
+                <adress class="nav__adress">г. Владимир ул. Мира д. 15-в оф. 311 (ДЦ Консоль, 3 этаж) </adress>
+                <adress class="nav__phone">
+                    <a href="tel: +7 (4922) 60-44-108" class="nav__phone-item">+7 (4922) 60-44-108</a>
+                    <a href="tel +7 (930) 830-44-10" class="nav__phone-item">+7 (930) 830-44-10</a>
+                </adress>
+            </div>
+        </ul>
+        
+    </nav>
+
+
+    <main class="main">
+        <container class="intro">
+            <div class="intro__wrapper wrapper">
+                <div class="intro__content">
+                    <div class="intro__info">
+                        <h1 class="intro__title">Снижаем <br> кадастровую стоимость</h1>
+                        <h3 class="intro__subtitle">для собственников и арендаторов</h3>
+                        <div class="intro__btn">Получить бесплатную консультацию</div>
+                    </div>
+                    <!-- <div class="intro__img">
+                        <img src="./assets/img/intro/intro_women.png" alt="" class="intro__img-item">
+                    </div> -->
+                </div> 
+            </div>
+        </container>
+
+        <container class="intro__container" id="intro__container">
+            <div class="wrapper intro__container-wrapper">
+                <div class="intro__box brick">
+                    <img src="./assets/img/intro/intro_ico1.png" alt=""> 
+                    <div class="intro__box-info">
+                        <div class="intro__box-title">Земельного участка</div>
+                        <div class="intro__box-subtitle">Оценка земельного участка с целью<br> установления кадастровой стоимости<br> в размере рыночной</div>
+                    </div>
+                </div>
+                <div class="intro__box brick">
+                    <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M77 81.2V73.9508C79.6885 72.8171 81.3711 70.1127 81.2 67.2C81.2 63.3402 78.6884 60.2 75.6 60.2C72.5116 60.2 70 63.3402 70 67.2C69.8288 70.1127 71.5115 72.8171 74.2 73.9508V81.2H67.2V37.8C67.2002 37.2694 66.9004 36.7841 66.4258 36.547L56 31.3348V23.8C56.0004 23.1747 55.5861 22.625 54.985 22.4532L36.4 17.143V1.4C36.4 0.62685 35.7731 0 35 0H7C6.22685 0 5.6 0.62685 5.6 1.4V81.2H0V84H84V81.2H77ZM33.6 81.2H8.4V78.4H21V75.6H8.4V70H21V67.2H8.4V61.6H21V58.8H8.4V53.2H21V50.4H8.4V44.8H21V42H8.4V36.4H21V33.6H8.4V28H21V25.2H8.4V19.6H21V16.8H8.4V11.2H21V8.4H8.4V2.8H33.6V81.2ZM53.2 81.2H36.4V78.4H46.2V75.6H36.4V70H46.2V67.2H36.4V61.6H46.2V58.8H36.4V53.2H46.2V50.4H36.4V44.8H46.2V42H36.4V36.4H46.2V33.6H36.4V28H46.2V25.2H36.4V20.0564L53.2 24.8556V81.2ZM64.4 81.2H56V78.4H60.2V75.6H56V70H60.2V67.2H56V61.6H60.2V58.8H56V53.2H60.2V50.4H56V44.8H60.2V42H56V34.4652L64.4 38.6652V81.2ZM74.2 70.798C73.2597 69.8413 72.7536 68.5405 72.8 67.2C72.8 64.9236 74.0824 63 75.6 63C77.1176 63 78.4 64.9236 78.4 67.2C78.4453 68.5403 77.9394 69.8408 77 70.798V68.6H74.2V70.798Z" fill="url(#paint0_linear_8:3)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_8:3" x1="6.25849e-07" y1="84" x2="86.3962" y2="81.4586" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#259BDE"/>
+                    <stop offset="1" stop-color="#5BC4FF"/>
+                    </linearGradient>
+                    </defs>
+                    </svg> 
+                    <div class="intro__box-info">
+                        <div class="intro__box-title">Зданий и помещений</div>
+                        <div class="intro__box-subtitle">Оценка стоимости объектта капитального<br> строительства с целью установления<br> кадастровой стоимости в размере<br> рыночной</div>
+                    </div>
+                </div>
+            </div>
+        </container>
+
+        <container class="advantages" id="advantages">
+        <div class="wrapper advantages__wrapper">
+            <div class="advantages__title">Почему мы?</div>
+            <div class="advantages_box">
+                <div class="advantages__item">
+                    <div class="advantages__subtitle">
+                        <div class="advantages__item-logo">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M28.8409 13.6539C29.4513 14.2642 29.4513 15.2536 28.8409 15.8636L18.3588 26.3461C17.7484 26.9562 16.7593 26.9562 16.149 26.3461L11.1591 21.3559C10.5487 20.7458 10.5487 19.7565 11.1591 19.1464C11.7691 18.5361 12.7585 18.5361 13.3685 19.1464L17.2537 23.0316L26.6312 13.6539C27.2415 13.0438 28.2309 13.0438 28.8409 13.6539ZM40 20C40 31.055 31.0535 40 20 40C8.94501 40 0 31.0535 0 20C0 8.94501 8.94653 0 20 0C31.055 0 40 8.94653 40 20ZM36.875 20C36.875 10.6723 29.3265 3.125 20 3.125C10.6723 3.125 3.125 10.6735 3.125 20C3.125 29.3277 10.6735 36.875 20 36.875C29.3277 36.875 36.875 29.3265 36.875 20Z" fill="url(#paint0_linear_8:31)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_8:31" x1="2.98023e-07" y1="40" x2="41.1411" y2="38.7898" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="advantages__item-title">Гарантия результата</div>
+                    </div>
+                    <div class="advantages__item-info">
+                        Возвращаем деньги если не снизили кадастроыую стоимость недвижимости
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__subtitle">
+                        <div class="advantages__item-logo">
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_8:33)">
+                                <path d="M9.40427 16.6992C9.40427 23.9688 15.3184 29.8829 22.5879 29.8829C29.8574 29.8829 35.7715 23.9688 35.7715 16.6992C35.7715 9.42971 29.8574 3.51562 22.5879 3.51562C15.3184 3.51562 9.40427 9.42971 9.40427 16.6992ZM22.5879 5.27344C28.8882 5.27344 34.0137 10.3989 34.0137 16.6992C34.0137 22.9996 28.8882 28.125 22.5879 28.125C16.2876 28.125 11.1621 22.9996 11.1621 16.6992C11.1621 10.3989 16.2876 5.27344 22.5879 5.27344Z" fill="url(#paint0_linear_8:33)"/>
+                                <path d="M14.4484 15.1323L17.8552 18.489L17.0714 23.2066C17.0168 23.5352 17.1524 23.8661 17.4219 24.0618C17.6911 24.2575 18.0478 24.2839 18.3434 24.1308L22.5879 21.9267L26.8321 24.1308C27.1253 24.2829 27.482 24.2592 27.7535 24.0618C28.0231 23.8661 28.1587 23.5352 28.1041 23.2066L27.3203 18.489L30.7271 15.1323C30.9643 14.8989 31.0491 14.5514 30.9461 14.2345C30.8431 13.918 30.5702 13.6869 30.2409 13.6371L25.513 12.9254L23.3738 8.64727C23.2251 8.34961 22.9206 8.16147 22.5879 8.16147C22.2549 8.16147 21.9507 8.34961 21.8017 8.64727L19.6624 12.9254L14.9345 13.6371C14.6053 13.6866 14.3323 13.918 14.2293 14.2345C14.1263 14.5514 14.2115 14.8989 14.4484 15.1323ZM20.3755 14.5957C20.6584 14.5531 20.9029 14.3756 21.0309 14.1199L22.5879 11.0056L24.1449 14.1199C24.2729 14.3756 24.5174 14.5531 24.8003 14.5957L28.2414 15.1138L25.7616 17.5565C25.558 17.7574 25.4646 18.0447 25.5113 18.3269L26.0819 21.7605L22.9927 20.1565C22.866 20.0906 22.7269 20.0576 22.5879 20.0576C22.4489 20.0576 22.3098 20.0906 22.1828 20.1565L19.0936 21.7605L19.6642 18.3269C19.7112 18.0447 19.6178 17.7574 19.4139 17.5565L16.9344 15.1138L20.3755 14.5957Z" fill="url(#paint1_linear_8:33)"/>
+                                <path d="M23.4668 0.8789C23.4668 1.36436 23.0734 1.75781 22.5879 1.75781C22.1024 1.75781 21.709 1.36436 21.709 0.8789C21.709 0.393441 22.1024 -7.62939e-06 22.5879 -7.62939e-06C23.0734 -7.62939e-06 23.4668 0.393441 23.4668 0.8789Z" fill="url(#paint2_linear_8:33)"/>
+                                <path d="M18.4457 0.518063C11.0522 2.40531 5.88864 9.05926 5.88864 16.6992C5.88864 21.4443 7.88369 25.9154 11.3859 29.0819L6.09086 38.4138C5.92057 38.7142 5.94186 39.0863 6.1451 39.3651C6.34835 39.6442 6.69579 39.7785 7.03397 39.7081L13.0473 38.4594L15.1608 44.415C15.2754 44.7391 15.569 44.9661 15.9116 44.9966C16.2543 45.0272 16.5828 44.8545 16.7528 44.5555L22.5879 34.297L28.4227 44.5555C28.5799 44.8318 28.8724 44.9997 29.1862 44.9997C29.212 44.9997 29.2381 44.9987 29.2638 44.9966C29.6064 44.9661 29.9 44.7388 30.015 44.415L32.1282 38.4594L38.1415 39.7081C38.4793 39.7781 38.8271 39.6439 39.0303 39.3651C39.2339 39.0863 39.2549 38.7142 39.0846 38.4138L33.7895 29.0819C37.2917 25.9154 39.2868 21.4443 39.2868 16.6992C39.2868 9.05926 34.1232 2.40531 26.7301 0.518063C26.2594 0.3979 25.7811 0.681828 25.661 1.15218C25.5408 1.62253 25.8247 2.10113 26.2951 2.22129C32.9096 3.90975 37.5293 9.86332 37.5293 16.6992C37.5293 25.019 30.7724 31.6407 22.5879 31.6407C14.3976 31.6407 7.64646 25.0135 7.64646 16.6992C7.64646 9.86332 12.2659 3.90975 18.8803 2.22129C19.3507 2.10113 19.6346 1.62253 19.5148 1.15218C19.3946 0.681828 18.9164 0.3979 18.4457 0.518063ZM16.1749 42.0166L14.4477 37.1493C14.3007 36.7352 13.8709 36.4932 13.4407 36.5825L8.57824 37.5922L12.7688 30.2066C15.2123 31.983 18.1055 33.0651 21.114 33.3329L16.1749 42.0166ZM31.7347 36.5825C31.3049 36.4932 30.8747 36.7352 30.7277 37.1493L29.0008 42.0166L24.0614 33.3329C27.0703 33.0651 29.9632 31.983 32.4069 30.2066L36.5975 37.5922L31.7347 36.5825Z" fill="url(#paint3_linear_8:33)"/>
+                                </g>
+                                <defs>
+                                <linearGradient id="paint0_linear_8:33" x1="9.40427" y1="29.8829" x2="36.5237" y2="29.0851" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_8:33" x1="14.1863" y1="24.2297" x2="31.4672" y2="23.6981" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_8:33" x1="21.709" y1="1.75781" x2="23.5169" y2="1.70462" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_8:33" x1="5.88864" y1="45.0001" x2="40.2525" y2="44.2416" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <clipPath id="clip0_8:33">
+                                <rect width="45" height="45" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="advantages__item-title">Честная оценка</div>
+                    </div>
+                    <div class="advantages__item-info">
+                        Мы беремся за работу только когда уверены, что результат оценки будет выгоден клиенту
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__subtitle">
+                        <div class="advantages__item-logo">
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M44.2969 15.1425C44.2969 13.384 42.866 11.9531 41.1075 11.9531C40.256 11.9531 39.4545 12.285 38.8526 12.8876L36.7685 14.9716L34.4531 17.287V10.4906C36.8346 10.1475 38.6719 8.0993 38.6719 5.625C38.6719 2.91094 36.4641 0.703125 33.75 0.703125H5.625C2.91094 0.703125 0.703125 2.91094 0.703125 5.625V40.7812C0.703125 41.1694 1.01812 41.4844 1.40625 41.4844H4.92188V43.5938C4.92188 43.9819 5.23688 44.2969 5.625 44.2969H33.75C34.1381 44.2969 34.4531 43.9819 34.4531 43.5938V26.3067L41.2784 19.4815L42.0005 18.7594C41.6362 20.5734 40.7482 22.2412 39.4109 23.5793L36.0661 26.9241L37.0603 27.9183L40.4051 24.5735C42.4005 22.578 43.5164 19.9427 43.5818 17.1309C44.0367 16.567 44.2969 15.878 44.2969 15.1425ZM39.8468 13.8818C40.1836 13.545 40.6315 13.3594 41.1075 13.3594C42.0905 13.3594 42.8906 14.1595 42.8906 15.1425C42.8906 15.6185 42.705 16.0664 42.3682 16.4032L40.7812 17.9902L38.2598 15.4688L39.8468 13.8818ZM37.2656 16.463L38.0292 17.2266L29.1797 26.0761L28.4161 25.3125L37.2656 16.463ZM20.5432 35.0177L21.9895 32.1244L24.1256 34.2605L21.2323 35.7068L20.5432 35.0177ZM22.7911 30.9375L27.4219 26.3067L29.9433 28.8281L25.3125 33.4589L22.7911 30.9375ZM33.75 2.10938C35.6885 2.10938 37.2656 3.68648 37.2656 5.625C37.2656 7.56352 35.6885 9.14062 33.75 9.14062H9.06328C9.97734 8.24625 10.5469 7.00172 10.5469 5.625C10.5469 4.24828 9.97734 3.00375 9.06328 2.10938H33.75ZM6.32812 9.06961V7.03125C6.32812 6.64383 6.64383 6.32812 7.03125 6.32812H9.06961C8.78906 7.70344 7.70344 8.78906 6.32812 9.06961ZM2.10938 40.0781V5.625C2.10938 3.68648 3.68648 2.10938 5.625 2.10938C7.32234 2.10938 8.74266 3.31945 9.06961 4.92188H7.03125C5.86828 4.92188 4.92188 5.86828 4.92188 7.03125V40.0781H2.10938ZM33.0469 42.8906H6.32812V10.5469H33.0469V18.6933L29.9433 21.7969H9.14062V23.2031H28.537L27.1308 24.6094H9.14062V26.0156H25.7245L21.2998 30.4404C21.2449 30.4952 21.2091 30.5606 21.176 30.6267L21.1683 30.6225L19.0589 34.8412C18.9239 35.1119 18.9766 35.4389 19.1911 35.6527L19.3964 35.8594L17.7841 37.4716L18.7784 38.4659L20.3906 36.8536L20.5966 37.0596C20.7316 37.1946 20.9116 37.2656 21.0938 37.2656C21.1999 37.2656 21.3082 37.241 21.408 37.1918L25.6268 35.0824L25.6226 35.0747C25.6887 35.0416 25.7541 35.0058 25.8089 34.9509L31.4339 29.3259L33.0469 27.713V42.8906ZM30.9375 27.8339L30.1739 27.0703L39.0234 18.2208L39.787 18.9844L30.9375 27.8339Z" fill="url(#paint0_linear_8:39)"/>
+                                <path d="M9.14062 13.3594H30.2344V14.7656H9.14062V13.3594Z" fill="url(#paint1_linear_8:39)"/>
+                                <path d="M9.14062 16.1719H30.2344V17.5781H9.14062V16.1719Z" fill="url(#paint2_linear_8:39)"/>
+                                <path d="M9.14062 18.9844H30.2344V20.3906H9.14062V18.9844Z" fill="url(#paint3_linear_8:39)"/>
+                                <path d="M9.14062 35.8594H16.875V37.2656H9.14062V35.8594Z" fill="url(#paint4_linear_8:39)"/>
+                                <path d="M9.14062 38.6719H30.2344V40.0781H9.14062V38.6719Z" fill="url(#paint5_linear_8:39)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_8:39" x1="0.703125" y1="44.2969" x2="45.5404" y2="42.9779" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_8:39" x1="9.14063" y1="14.7656" x2="27.3162" y2="6.74578" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_8:39" x1="9.14063" y1="17.5781" x2="27.3162" y2="9.55828" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_8:39" x1="9.14063" y1="20.3906" x2="27.3162" y2="12.3708" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_8:39" x1="9.14063" y1="37.2656" x2="16.8994" y2="36.0103" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                <linearGradient id="paint5_linear_8:39" x1="9.14063" y1="40.0781" x2="27.3162" y2="32.0583" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#259BDE"/>
+                                <stop offset="1" stop-color="#5BC4FF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>      
+                        </div>
+                        <div class="advantages__item-title">Комплексное обслуживание</div>
+                    </div>
+                    <div class="advantages__item-info">
+                        Представительство в Комиссии и суде. Единая стоимость услуги в не зависимости от количества судебных заседаний 
+                    </div>
+                </div>
+                <div class="advantages__adress">
+                    <div class="advantages__adress-title">Закажите услугу независимого <br>оценщика</div>
+                    <div class="advantages__adress-info">
+                        <span class="advantages__phone">(4922) 60-44-108</span>
+                        - офис
+                    </div>
+                    <div class="advantages__adress-info">
+                        <span class="advantages__phone">+7 (930) 830-44-10</span>
+                        - дежурный оценщик
+                    </div>
+                </div>
+            </div>
+        </div>
+        </container>
+
+        <container class="cost" id="cost">
+        <div class="wrapper cost_wrapper">
+            <div class="cost__title">Сроки и цены</div>
+            <div class="cost__subtitle">Гибкая система скидок, в зависимости от количества объектов.</div>
+            <div class="cost__box">
+                <div class="cost__item brick">
+                    <div class="cost__item-title">Подготовка отчета о рыночной стоимости объекта</div>
+                    <div class="cost__item-subtitle">Срочность подготовки отчета не влияет на стоимость оценки</div>
+                    <div class="cost__item-footer">
+                        <div class="cost__item-price">от <span class="cost__footer-money">15 000 Р</span></div>
+                        <div class="cost__item-calendar">
+                            <div class="cost__item-logo">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.1875 1.875H20.0625V0H18.1875V1.875H5.8125V0H3.9375V1.875H2.8125C1.26169 1.875 0 3.13669 0 4.6875V21.1875C0 22.7383 1.26169 24 2.8125 24H21.1875C22.7383 24 24 22.7383 24 21.1875V4.6875C24 3.13669 22.7383 1.875 21.1875 1.875ZM22.125 21.1875C22.125 21.7044 21.7044 22.125 21.1875 22.125H2.8125C2.29556 22.125 1.875 21.7044 1.875 21.1875V8.8125H22.125V21.1875ZM22.125 6.9375H1.875V4.6875C1.875 4.17056 2.29556 3.75 2.8125 3.75H3.9375V5.625H5.8125V3.75H18.1875V5.625H20.0625V3.75H21.1875C21.7044 3.75 22.125 4.17056 22.125 4.6875V6.9375Z" fill="url(#paint0_linear_8:67)"/>
+                                    <path d="M5.4375 10.7812H3.5625V12.6562H5.4375V10.7812Z" fill="url(#paint1_linear_8:67)"/>
+                                    <path d="M9.1875 10.7812H7.3125V12.6562H9.1875V10.7812Z" fill="url(#paint2_linear_8:67)"/>
+                                    <path d="M12.9375 10.7812H11.0625V12.6562H12.9375V10.7812Z" fill="url(#paint3_linear_8:67)"/>
+                                    <path d="M16.6875 10.7812H14.8125V12.6562H16.6875V10.7812Z" fill="url(#paint4_linear_8:67)"/>
+                                    <path d="M20.4375 10.7812H18.5625V12.6562H20.4375V10.7812Z" fill="url(#paint5_linear_8:67)"/>
+                                    <path d="M5.4375 14.5312H3.5625V16.4062H5.4375V14.5312Z" fill="url(#paint6_linear_8:67)"/>
+                                    <path d="M9.1875 14.5312H7.3125V16.4062H9.1875V14.5312Z" fill="url(#paint7_linear_8:67)"/>
+                                    <path d="M12.9375 14.5312H11.0625V16.4062H12.9375V14.5312Z" fill="url(#paint8_linear_8:67)"/>
+                                    <path d="M16.6875 14.5312H14.8125V16.4062H16.6875V14.5312Z" fill="url(#paint9_linear_8:67)"/>
+                                    <path d="M5.4375 18.2812H3.5625V20.1562H5.4375V18.2812Z" fill="url(#paint10_linear_8:67)"/>
+                                    <path d="M9.1875 18.2812H7.3125V20.1562H9.1875V18.2812Z" fill="url(#paint11_linear_8:67)"/>
+                                    <path d="M12.9375 18.2812H11.0625V20.1562H12.9375V18.2812Z" fill="url(#paint12_linear_8:67)"/>
+                                    <path d="M16.6875 18.2812H14.8125V20.1562H16.6875V18.2812Z" fill="url(#paint13_linear_8:67)"/>
+                                    <path d="M20.4375 14.5312H18.5625V16.4062H20.4375V14.5312Z" fill="url(#paint14_linear_8:67)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_8:67" x1="1.78814e-07" y1="24" x2="24.6846" y2="23.2739" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_8:67" x1="3.5625" y1="12.6563" x2="5.49099" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_8:67" x1="7.3125" y1="12.6563" x2="9.24099" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_8:67" x1="11.0625" y1="12.6563" x2="12.991" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint4_linear_8:67" x1="14.8125" y1="12.6563" x2="16.741" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint5_linear_8:67" x1="18.5625" y1="12.6563" x2="20.491" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint6_linear_8:67" x1="3.5625" y1="16.4063" x2="5.49099" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint7_linear_8:67" x1="7.3125" y1="16.4063" x2="9.24099" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint8_linear_8:67" x1="11.0625" y1="16.4063" x2="12.991" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint9_linear_8:67" x1="14.8125" y1="16.4063" x2="16.741" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint10_linear_8:67" x1="3.5625" y1="20.1563" x2="5.49099" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint11_linear_8:67" x1="7.3125" y1="20.1563" x2="9.24099" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint12_linear_8:67" x1="11.0625" y1="20.1563" x2="12.991" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint13_linear_8:67" x1="14.8125" y1="20.1563" x2="16.741" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint14_linear_8:67" x1="18.5625" y1="16.4063" x2="20.491" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="cost__item-days">от <span style="font-size: 24px;">5</span> рабочих дней</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost__item brick">
+                    <div class="cost__item-title">Юридическое <br> сопровождение "под ключ"</div>
+                    <div class="cost__item-subtitle">Отчет по каждому проделанному этапу работ</div>
+                    <div class="cost__item-footer">
+                        <div class="cost__item-price">от <span class="cost__footer-money">10 000 Р</span></div>
+                        <div class="cost__item-calendar">
+                            <div class="cost__item-logo">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.1875 1.875H20.0625V0H18.1875V1.875H5.8125V0H3.9375V1.875H2.8125C1.26169 1.875 0 3.13669 0 4.6875V21.1875C0 22.7383 1.26169 24 2.8125 24H21.1875C22.7383 24 24 22.7383 24 21.1875V4.6875C24 3.13669 22.7383 1.875 21.1875 1.875ZM22.125 21.1875C22.125 21.7044 21.7044 22.125 21.1875 22.125H2.8125C2.29556 22.125 1.875 21.7044 1.875 21.1875V8.8125H22.125V21.1875ZM22.125 6.9375H1.875V4.6875C1.875 4.17056 2.29556 3.75 2.8125 3.75H3.9375V5.625H5.8125V3.75H18.1875V5.625H20.0625V3.75H21.1875C21.7044 3.75 22.125 4.17056 22.125 4.6875V6.9375Z" fill="url(#paint0_linear_8:67)"/>
+                                    <path d="M5.4375 10.7812H3.5625V12.6562H5.4375V10.7812Z" fill="url(#paint1_linear_8:67)"/>
+                                    <path d="M9.1875 10.7812H7.3125V12.6562H9.1875V10.7812Z" fill="url(#paint2_linear_8:67)"/>
+                                    <path d="M12.9375 10.7812H11.0625V12.6562H12.9375V10.7812Z" fill="url(#paint3_linear_8:67)"/>
+                                    <path d="M16.6875 10.7812H14.8125V12.6562H16.6875V10.7812Z" fill="url(#paint4_linear_8:67)"/>
+                                    <path d="M20.4375 10.7812H18.5625V12.6562H20.4375V10.7812Z" fill="url(#paint5_linear_8:67)"/>
+                                    <path d="M5.4375 14.5312H3.5625V16.4062H5.4375V14.5312Z" fill="url(#paint6_linear_8:67)"/>
+                                    <path d="M9.1875 14.5312H7.3125V16.4062H9.1875V14.5312Z" fill="url(#paint7_linear_8:67)"/>
+                                    <path d="M12.9375 14.5312H11.0625V16.4062H12.9375V14.5312Z" fill="url(#paint8_linear_8:67)"/>
+                                    <path d="M16.6875 14.5312H14.8125V16.4062H16.6875V14.5312Z" fill="url(#paint9_linear_8:67)"/>
+                                    <path d="M5.4375 18.2812H3.5625V20.1562H5.4375V18.2812Z" fill="url(#paint10_linear_8:67)"/>
+                                    <path d="M9.1875 18.2812H7.3125V20.1562H9.1875V18.2812Z" fill="url(#paint11_linear_8:67)"/>
+                                    <path d="M12.9375 18.2812H11.0625V20.1562H12.9375V18.2812Z" fill="url(#paint12_linear_8:67)"/>
+                                    <path d="M16.6875 18.2812H14.8125V20.1562H16.6875V18.2812Z" fill="url(#paint13_linear_8:67)"/>
+                                    <path d="M20.4375 14.5312H18.5625V16.4062H20.4375V14.5312Z" fill="url(#paint14_linear_8:67)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_8:67" x1="1.78814e-07" y1="24" x2="24.6846" y2="23.2739" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_8:67" x1="3.5625" y1="12.6563" x2="5.49099" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_8:67" x1="7.3125" y1="12.6563" x2="9.24099" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_8:67" x1="11.0625" y1="12.6563" x2="12.991" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint4_linear_8:67" x1="14.8125" y1="12.6563" x2="16.741" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint5_linear_8:67" x1="18.5625" y1="12.6563" x2="20.491" y2="12.5995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint6_linear_8:67" x1="3.5625" y1="16.4063" x2="5.49099" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint7_linear_8:67" x1="7.3125" y1="16.4063" x2="9.24099" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint8_linear_8:67" x1="11.0625" y1="16.4063" x2="12.991" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint9_linear_8:67" x1="14.8125" y1="16.4063" x2="16.741" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint10_linear_8:67" x1="3.5625" y1="20.1563" x2="5.49099" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint11_linear_8:67" x1="7.3125" y1="20.1563" x2="9.24099" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint12_linear_8:67" x1="11.0625" y1="20.1563" x2="12.991" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint13_linear_8:67" x1="14.8125" y1="20.1563" x2="16.741" y2="20.0995" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint14_linear_8:67" x1="18.5625" y1="16.4063" x2="20.491" y2="16.3495" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#259BDE"/>
+                                    <stop offset="1" stop-color="#5BC4FF"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="cost__item-days">Сроки индивидуальны</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </container>
+
+        <container class="work" id="work">
+        <div class="work_wrapper wrapper">
+            <div class="work__title">Схема работы</div>
+            <div class="work__box">
+                <div class="work__item">
+                    <div class="work_item-id">01</div>
+                    <div class="work__item-title">Бесплатная консультация</div>
+                    <div class="work__item-subtitle">Свяжитесь с нами сейчас:<br>8-(4922)-60-44-10<br>8-(930)-830-44-10</div>
+                </div>
+                <div class="work__item">
+                    <div class="work_item-id">02</div>
+                    <div class="work__item-title">Экспресс оценка</div>
+                    <div class="work__item-subtitle">Предварительные расчеты в течение дня <br> по конкретному кадастровому номеру <br>Пишите: info@vlocenka.ru</div>
+                </div>
+                <div class="work__item">
+                    <div class="work_item-id">03</div>
+                    <div class="work__item-title">Подготовка отчёта</div>
+                    <div class="work__item-subtitle">Подготовим отчёт об оценке рыночной <br> стоимости быстро и профессионально</div>
+                </div>
+            </div>
+            <div class="work__box2">
+                <div class="work__item2">
+                    <div class="work_item-id">04</div>
+                    <div class="work__item-title">Суд / Комиссия </div>
+                    <div class="work__item-subtitle">Представление интересов в комиссии и суде. 100% выигранных дел. Гарантия результатов</div>
+                </div>
+                <div class="work__item2">
+                    <div class="work_item-id">05</div>
+                    <div class="work__item-title">Положительное решение</div>
+                    <div class="work__item-subtitle">Получение положительного решения о снижении кадастровой стоимости</div>
+                </div>
+            </div>
+        </div>
+        </container>
+
+        <container class="results" id="results">
+        <div class="results_wrapper wrapper">
+            <div class="results__title">Результаты нашей работы</div>
+            <div id="results__item-large" class="results__item">
+                <div class="results__item-title" id="results__large-title">Комиссия по рассмотрению споров о результатах определения кадастровой стоимости</div>
+                <div class="results__item-subtitle">Для оспаривания кадастровой стоимости суд может быть и не нужен. Мы имеем большое количество наших отчетов, на которые получены положительные решения Комиссии. <br>Без суда!<br><br>
+                    Посмотрите реальные результаты нашей работы - <br> положительные решения комиссии:</div>
+                <div class="result__slider-wrapper">
+                    <div class="result__slider">
+                    <div id="result__btn-exit">X</div>
+                    <img src="./assets/img/results/doc2.png" alt="" result-position="0" class="result__slider-img result__slider-img1">
+                    <img src="./assets/img/results/doc2.png" alt="" result-position="1" class="result__slider-img">
+                    <img src="./assets/img/results/doc2.png" alt="" result-position="2" class="result__slider-img result__slider-img2">
+                    <div id="result_arrow-left" class="reusult__slider-btn">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="21" cy="21" r="21" fill="url(#paint0_linear_8:467)"/>
+                            <path d="M14.7775 21.1633L22.3427 28.7284C22.5177 28.9035 22.7513 29 23.0003 29C23.2494 29 23.483 28.9035 23.6579 28.7284L24.2151 28.1714C24.5776 27.8085 24.5776 27.2186 24.2151 26.8562L17.8624 20.5035L24.2221 14.1438C24.3971 13.9687 24.4937 13.7352 24.4937 13.4863C24.4937 13.2371 24.3971 13.0037 24.2221 12.8284L23.665 12.2716C23.4899 12.0965 23.2564 12 23.0074 12C22.7583 12 22.5247 12.0965 22.3498 12.2716L14.7775 19.8436C14.6021 20.0192 14.5058 20.2538 14.5063 20.5031C14.5058 20.7534 14.6021 20.9878 14.7775 21.1633Z" fill="white"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8:467" x1="3.12924e-07" y1="42" x2="43.1981" y2="40.7293" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#259BDE"/>
+                            <stop offset="1" stop-color="#5BC4FF"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div id="result_arrow-right" class="reusult__slider-btn">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="21" cy="21" r="21" fill="url(#paint0_linear_8:466)"/>
+                            <path d="M26.2225 19.8367L18.6573 12.2716C18.4823 12.0965 18.2487 12 17.9997 12C17.7506 12 17.5171 12.0965 17.3421 12.2716L16.785 12.8286C16.4224 13.1915 16.4224 13.7814 16.785 14.1438L23.1377 20.4965L16.7779 26.8562C16.6029 27.0313 16.5063 27.2648 16.5063 27.5137C16.5063 27.7629 16.6029 27.9963 16.7779 28.1716L17.335 28.7284C17.5102 28.9035 17.7436 29 17.9926 29C18.2417 29 18.4753 28.9035 18.6503 28.7284L26.2225 21.1564C26.3979 20.9808 26.4942 20.7462 26.4937 20.4969C26.4942 20.2466 26.3979 20.0122 26.2225 19.8367Z" fill="white"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8:466" x1="3.12924e-07" y1="42" x2="43.1981" y2="40.7293" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#259BDE"/>
+                            <stop offset="1" stop-color="#5BC4FF"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>                             
+                    </div>
+                    <div id="result__search" class="reusult__slider-btn">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle opacity="0.3" cx="40" cy="40" r="40" fill="url(#paint0_linear_8:468)"/>
+                            <circle cx="40" cy="40" r="30" fill="url(#paint1_linear_8:468)"/>
+                            <path d="M53.1054 51.5036L46.4414 44.5726C48.1548 42.5358 49.0936 39.973 49.0936 37.305C49.0936 31.0715 44.0221 26 37.7886 26C31.5552 26 26.4836 31.0715 26.4836 37.305C26.4836 43.5385 31.5552 48.61 37.7886 48.61C40.1288 48.61 42.3588 47.9042 44.2654 46.5643L50.9801 53.5478C51.2607 53.8393 51.6382 54 52.0427 54C52.4256 54 52.7889 53.854 53.0646 53.5886C53.6505 53.0248 53.6692 52.0899 53.1054 51.5036ZM37.7886 28.9491C42.3962 28.9491 46.1445 32.6975 46.1445 37.305C46.1445 41.9125 42.3962 45.6609 37.7886 45.6609C33.1811 45.6609 29.4328 41.9125 29.4328 37.305C29.4328 32.6975 33.1811 28.9491 37.7886 28.9491Z" fill="white"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8:468" x1="5.96047e-07" y1="80" x2="82.2821" y2="77.5796" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#259BDE"/>
+                            <stop offset="1" stop-color="#5BC4FF"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_8:468" x1="10" y1="70" x2="71.7116" y2="68.1847" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#259BDE"/>
+                            <stop offset="1" stop-color="#5BC4FF"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>    
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="results__box">
+                <div class="results__item brick results__item-shadow">
+                    <div class="results__item-title">Владимирский областной суд</div>
+                    <div class="results__item-subtitle">Если не повезло с Комиссией или вовсе решили от нее отказаться, наши оценщики и юристы сделают все возможное чтобы и вы побыстрее получили решение, которое обеспечит вам снижение земельного налога и налога на имущество.</div>
+                </div>
+                <div class="result__subitem brick results__item-shadow">
+                    <div class="result__subitem-title">Панкратов</div>
+                    <div class="result__subitem-string">
+                        <div class="result__string-name">Кадастровая стоимость:</div>
+                        <div class="result__string-info"><span class="subitem-blue">5 139 107,43 ₽ &emsp; > &emsp; 1 016 000 ₽</div>
+                    </div>
+                    <div class="result__subitem-string">
+                        <div class="result__string-name">Экономия на налогах:</div>
+                        <div class="result__string-info"><span class="subitem-blue">61 846 ₽</span> в год / <span class="subitem-blue">309 230 ₽</span> за 5 лет</div>
+                    </div>
+                    <div class="result__subitem-string">
+                        <div class="result__string-name">Решение суда:</div>
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0C6.0375 0 5.25 0.7875 5.25 1.75V26.25C5.25 27.2125 6.0375 28 7 28H24.5C25.4625 28 26.25 27.2125 26.25 26.25V7L19.25 0H7Z" fill="#E2E5E7"/>
+                                <path d="M21 7H26.25L19.25 0V5.25C19.25 6.2125 20.0375 7 21 7Z" fill="#B0B7BD"/>
+                                <path d="M26.25 12.25L21 7H26.25V12.25Z" fill="#CAD1D8"/>
+                                <path d="M22.75 22.75C22.75 23.2312 22.3563 23.625 21.875 23.625H2.625C2.14375 23.625 1.75 23.2312 1.75 22.75V14C1.75 13.5187 2.14375 13.125 2.625 13.125H21.875C22.3563 13.125 22.75 13.5187 22.75 14V22.75Z" fill="#F15642"/>
+                                <path d="M5.56412 16.5786C5.56412 16.3476 5.74612 16.0956 6.03924 16.0956H7.65537C8.56537 16.0956 9.38437 16.7046 9.38437 17.8718C9.38437 18.9778 8.56537 19.5938 7.65537 19.5938H6.48724V20.5178C6.48724 20.8258 6.29124 21 6.03924 21C5.80824 21 5.56412 20.8258 5.56412 20.5178V16.5786ZM6.48724 16.9767V18.7197H7.65537C8.12437 18.7197 8.49537 18.3058 8.49537 17.8718C8.49537 17.3827 8.12437 16.9767 7.65537 16.9767H6.48724Z" fill="white"/>
+                                <path d="M10.7546 20.9999C10.5236 20.9999 10.2716 20.8739 10.2716 20.5668V16.5926C10.2716 16.3414 10.5236 16.1586 10.7546 16.1586H12.3567C15.554 16.1586 15.484 20.9999 12.4197 20.9999H10.7546ZM11.1956 17.0126V20.1468H12.3567C14.2459 20.1468 14.3299 17.0126 12.3567 17.0126H11.1956Z" fill="white"/>
+                                <path d="M16.618 17.0686V18.1807H18.4021C18.6541 18.1807 18.9061 18.4327 18.9061 18.6768C18.9061 18.9078 18.6541 19.0968 18.4021 19.0968H16.618V20.566C16.618 20.811 16.4439 20.9991 16.1989 20.9991C15.8909 20.9991 15.7027 20.811 15.7027 20.566V16.5917C15.7027 16.3406 15.8917 16.1577 16.1989 16.1577H18.655C18.963 16.1577 19.145 16.3406 19.145 16.5917C19.145 16.8157 18.963 17.0677 18.655 17.0677H16.618V17.0686Z" fill="white"/>
+                                <path d="M21.875 23.625H5.25V24.5H21.875C22.3563 24.5 22.75 24.1063 22.75 23.625V22.75C22.75 23.2313 22.3563 23.625 21.875 23.625Z" fill="#CAD1D8"/>
+                        </svg>
+                        <a href="#" class="result__string-link">Посмотреть документ</a>
+                    </div>
+                </div>
+                <div class="result__subitem brick results__item-shadow">
+                    <div class="result__subitem-title">Земельный участок &emsp; <span class="result__string-info">Владимирская обл., г. Лакинск</span></div>
+                    <div class="result__subitem-string">
+                        <div class="result__string-name">Кадастровая стоимость:</div>
+                        <div class="result__string-info"><span class="subitem-blue">5 139 107,43 ₽ &emsp; > &emsp; 1 016 000 ₽</div>
+                    </div>
+                    <div class="result__subitem-string">
+                        <div class="result__string-name">Экономия на налогах:</div>
+                        <div class="result__string-info"><span class="subitem-blue">61 846 ₽</span> в год / <span class="subitem-blue">309 230 ₽</span> за 5 лет</div>
+                    </div>
+                    <div class="result__subitem-string">
+                        <div class="result__string-name">Решение суда:</div>
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0C6.0375 0 5.25 0.7875 5.25 1.75V26.25C5.25 27.2125 6.0375 28 7 28H24.5C25.4625 28 26.25 27.2125 26.25 26.25V7L19.25 0H7Z" fill="#E2E5E7"/>
+                                <path d="M21 7H26.25L19.25 0V5.25C19.25 6.2125 20.0375 7 21 7Z" fill="#B0B7BD"/>
+                                <path d="M26.25 12.25L21 7H26.25V12.25Z" fill="#CAD1D8"/>
+                                <path d="M22.75 22.75C22.75 23.2312 22.3563 23.625 21.875 23.625H2.625C2.14375 23.625 1.75 23.2312 1.75 22.75V14C1.75 13.5187 2.14375 13.125 2.625 13.125H21.875C22.3563 13.125 22.75 13.5187 22.75 14V22.75Z" fill="#F15642"/>
+                                <path d="M5.56412 16.5786C5.56412 16.3476 5.74612 16.0956 6.03924 16.0956H7.65537C8.56537 16.0956 9.38437 16.7046 9.38437 17.8718C9.38437 18.9778 8.56537 19.5938 7.65537 19.5938H6.48724V20.5178C6.48724 20.8258 6.29124 21 6.03924 21C5.80824 21 5.56412 20.8258 5.56412 20.5178V16.5786ZM6.48724 16.9767V18.7197H7.65537C8.12437 18.7197 8.49537 18.3058 8.49537 17.8718C8.49537 17.3827 8.12437 16.9767 7.65537 16.9767H6.48724Z" fill="white"/>
+                                <path d="M10.7546 20.9999C10.5236 20.9999 10.2716 20.8739 10.2716 20.5668V16.5926C10.2716 16.3414 10.5236 16.1586 10.7546 16.1586H12.3567C15.554 16.1586 15.484 20.9999 12.4197 20.9999H10.7546ZM11.1956 17.0126V20.1468H12.3567C14.2459 20.1468 14.3299 17.0126 12.3567 17.0126H11.1956Z" fill="white"/>
+                                <path d="M16.618 17.0686V18.1807H18.4021C18.6541 18.1807 18.9061 18.4327 18.9061 18.6768C18.9061 18.9078 18.6541 19.0968 18.4021 19.0968H16.618V20.566C16.618 20.811 16.4439 20.9991 16.1989 20.9991C15.8909 20.9991 15.7027 20.811 15.7027 20.566V16.5917C15.7027 16.3406 15.8917 16.1577 16.1989 16.1577H18.655C18.963 16.1577 19.145 16.3406 19.145 16.5917C19.145 16.8157 18.963 17.0677 18.655 17.0677H16.618V17.0686Z" fill="white"/>
+                                <path d="M21.875 23.625H5.25V24.5H21.875C22.3563 24.5 22.75 24.1063 22.75 23.625V22.75C22.75 23.2313 22.3563 23.625 21.875 23.625Z" fill="#CAD1D8"/>
+                        </svg>
+                        <a href="#" class="result__string-link">Посмотреть документ</a>
+                    </div>
+                </div>
+                <div class="result__example">
+                    <div class="result__example-text">Пример:</div>
+                    <div class="result__example-slider">
+                        <svg id="result__example-left" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="21" cy="21" r="21" fill="url(#paint0_linear_8:467)"/>
+                            <path d="M14.7775 21.1633L22.3427 28.7284C22.5177 28.9035 22.7513 29 23.0003 29C23.2494 29 23.483 28.9035 23.6579 28.7284L24.2151 28.1714C24.5776 27.8085 24.5776 27.2186 24.2151 26.8562L17.8624 20.5035L24.2221 14.1438C24.3971 13.9687 24.4937 13.7352 24.4937 13.4863C24.4937 13.2371 24.3971 13.0037 24.2221 12.8284L23.665 12.2716C23.4899 12.0965 23.2564 12 23.0074 12C22.7583 12 22.5247 12.0965 22.3498 12.2716L14.7775 19.8436C14.6021 20.0192 14.5058 20.2538 14.5063 20.5031C14.5058 20.7534 14.6021 20.9878 14.7775 21.1633Z" fill="white"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8:467" x1="3.12924e-07" y1="42" x2="43.1981" y2="40.7293" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#259BDE"/>
+                            <stop offset="1" stop-color="#5BC4FF"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>                           
+                        <div class="result__example-id">1 / 3</div>
+                        <svg id="result__example-right" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="21" cy="21" r="21" fill="url(#paint0_linear_8:466)"/>
+                            <path d="M26.2225 19.8367L18.6573 12.2716C18.4823 12.0965 18.2487 12 17.9997 12C17.7506 12 17.5171 12.0965 17.3421 12.2716L16.785 12.8286C16.4224 13.1915 16.4224 13.7814 16.785 14.1438L23.1377 20.4965L16.7779 26.8562C16.6029 27.0313 16.5063 27.2648 16.5063 27.5137C16.5063 27.7629 16.6029 27.9963 16.7779 28.1716L17.335 28.7284C17.5102 28.9035 17.7436 29 17.9926 29C18.2417 29 18.4753 28.9035 18.6503 28.7284L26.2225 21.1564C26.3979 20.9808 26.4942 20.7462 26.4937 20.4969C26.4942 20.2466 26.3979 20.0122 26.2225 19.8367Z" fill="white"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8:466" x1="3.12924e-07" y1="42" x2="43.1981" y2="40.7293" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#259BDE"/>
+                            <stop offset="1" stop-color="#5BC4FF"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+        </container>
+
+        <container class="sertificat" id="sertificat">
+        <div class="sertificat__wrapper wrapper">
+            <div class="sertificat__info">
+                <div class="sertificat__info-title">Наши сертификаты</div>
+                <div class="sertificat__info-subtitle">Документы подтверждают нашу компетентность и право проводить экспертную оценку недвижимости</div>
+            </div>
+            <div class="sertificat__box">
+                <img src="./assets/img/sertificat/sertificat.png" alt="" class="sertificat__box-item">
+            </div>
+        </div>
+        </container>
+
+        <container class="specialist" id="specialist">
+        <div class="wrapper specialist__wrapper">
+            <div class="specialist__title">Наши ведущие специалисты</div>
+            <div class="specialist__box">
+                <div class="specialist__box-item brick">
+                    <div class="specialist__item-head">
+                        <img src="./assets/img/team/member1.png" class="specialist__logo">
+                        <div class="specialist__info">
+                            <div class="specialist__info-title">ЕЛЕНА ЯКОВЕНКО</div>
+                            <div class="specialist__info-subtitle">Директор Руководитель отдела оценки и экпертиз</div>
+                        </div>
+                    </div>
+                    <div class="specialist__item-description">
+                        Высшее экономическое образование, Профессиональная переподготовка в области оценочной деятельности. <br><br> Опыт работы более 5 лет.
+                    </div>
+                </div>
+                <div class="specialist__box-item brick">
+                    <div class="specialist__item-head">
+                        <img src="./assets/img/team/member2.png" class="specialist__logo">
+                        <div class="specialist__info">
+                            <div class="specialist__info-title">АНАСТАСИЯ КОЛОДИНА</div>
+                            <div class="specialist__info-subtitle">Ведущий оценщик</div>
+                        </div>
+                    </div>
+                    <div class="specialist__item-description">
+                        Высшее техническое образование, Профессиональная переподготовка в области оценочной деятельности. <br><br> Опыт работы более 3 лет.
+                    </div>
+                </div>
+                <div class="specialist__box-item brick">
+                    <div class="specialist__item-head">
+                        <img src="./assets/img/team/member3.png" class="specialist__logo">
+                        <div class="specialist__info">
+                            <div class="specialist__info-title">МАРИЯ ЛОПАТНИКОВА</div>
+                            <div class="specialist__info-subtitle">Помошник оценщика</div>
+                        </div>
+                    </div>
+                    <div class="specialist__item-description">
+                        Высшее образование.<br>Опыт работы более 1 года.
+                    </div>
+                </div>
+                <div class="specialist__box-item brick">
+                    <div class="specialist__item-head">
+                        <img src="./assets/img/team/member4.png" class="specialist__logo">
+                        <div class="specialist__info">
+                            <div class="specialist__info-title">НАТАЛЬЯ ЗИНКИНА</div>
+                            <div class="specialist__info-subtitle">Юрист</div>
+                        </div>
+                    </div>
+                    <div class="specialist__item-description">
+                        Высшее юридическое образование.<br>Опыт работы более 5 лет.
+                    </div>
+                </div>
+                <div class="specialist__box-item brick">
+                    <div class="specialist__item-head">
+                        <img src="./assets/img/team/member3.png" class="specialist__logo">
+                        <div class="specialist__info">
+                            <div class="specialist__info-title">УЛЬЯНА СЕЛИВЕРСТОВА</div>
+                            <div class="specialist__info-subtitle">Юрист</div>
+                        </div>
+                    </div>
+                    <div class="specialist__item-description">
+                        Высшее юридическое образование.<br>Опыт работы более 5 лет.
+                    </div>
+                </div>
+                
+                <div class="specialist__content">
+                    <div class="specialist__content-text">Эти люди любят свою работу и своих клиентов. <br>Позвоните и они займутся вашим делом уже<br>сегодня!</div>
+                </div>
+            </div>
+        </div>
+        </container>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper wrapper">
+            <div class="footer__box">
+                <div class="footer__content">
+                    <img src="./assets/img/logo-white.png" class="footer__content-logo">
+                    <div class="footer__content-text">г. Владимир, ул. Мира, д. 15-в, оф.311 <br>(ДЦ «Консоль», 3 этаж) <br><br><a class="footer__link" href="tel:+7(4922) 60-44-10">(4922) 60-44-10</a> / <a class="footer__link" href="tel: 8-930-830-44-10">8-930-830-44-10</a> <br><br> <a class="footer__link" href="mailto: info@vlocenka.ru">E-mail: info@vlocenka.ru</a></div>
+                </div>
+                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2223.135257551205!2d40.37978881584437!3d56.13747378065797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414c7be14b771d63%3A0x55a969f9e50de244!2z0YPQuy4g0JzQuNGA0LAsIDE10LIsINCS0LvQsNC00LjQvNC40YAsINCS0LvQsNC00LjQvNC40YDRgdC60LDRjyDQvtCx0LsuLCA2MDAwMDU!5e0!3m2!1sru!2sru!4v1635524698733!5m2!1sru!2sru" width="760" height="238" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <form class="footer__form">
+                <input class="footer__form-input" type="text" placeholder="Email"/>
+                <button class="footer__form-btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+    <script src="./assets/scripts/inputmask.js"></script>
+    <script>
+        $(document).ready(function(){   
+            $(".footer__form-input").inputmask("email")
+        });
+    </script>
+</body>
+</html>
