@@ -11,13 +11,6 @@
         margin-left: 20px;
     }
 
-
-    
-    /* INTRO */
-    .intro {
-        background-position: 450px 50px;
-    }
-
     /* RESULT */
     #results__item-large {
         width: 100%;
@@ -46,7 +39,7 @@
 
     /* INTRO */
     .intro {
-        background-position: 350px 50px;
+        background-position-x: 45vw;
     }
     .intro__box:last-child {
         margin-top: 20px;

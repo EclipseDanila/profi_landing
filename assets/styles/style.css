@@ -45,12 +45,11 @@ container {
     background-color: #fff;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0 5px 5px 5px;
-    transition: .3s;
+    transition: transform .3s, box-shadow .3s;
 }
 .brick:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2);
-    transition: .3s;
 }
 
 
@@ -149,7 +148,7 @@ container {
     height: 100px;
     display: flex;
     justify-content: center;
-    transition: .5s;
+    transition: transform .5s;
 }
 .nav__list {
     list-style: none;
@@ -197,9 +196,10 @@ container {
 /* INTRO */
 .intro {
     background-color: #D9E2E9;
-    background-image: url(../img/intro/intro_women.png);
+    background-image: url(../img/intro/intro_women1.png);
     background-repeat: no-repeat;
-    background-position: 622px 50px;
+    background-position-x: 50vw;
+    background-position-y: 120px;
     padding: 64px 0 47px 0; 
 }
 .intro__wrapper {
@@ -240,7 +240,6 @@ container {
 .intro__btn:hover {
     transform: translateX(0px);
     box-shadow: 0px 0 0 white;
-    transition: .2s;
 }
 
 .intro__container {
@@ -535,8 +534,8 @@ container {
     position: absolute;
     font-family: 'Museo-900';
     right: 5px;
-    top: 5px;
-    font-size: 15px;
+    top: 0px;
+    font-size: 20px;
     display: none;
 }
 .result__slider-wrapper-active {
@@ -547,7 +546,7 @@ container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
 }
